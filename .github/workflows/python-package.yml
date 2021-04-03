@@ -5,9 +5,9 @@ name: Python package
 
 on:
   push:
-    branches: [ master stage  integer]
+    branches: [ main stage  integer]
   pull_request:
-    branches: [ master stage integer]
+    branches: [ main stage integer]
 
 jobs:
   build:
