@@ -40,4 +40,4 @@ jobs:
 
     - name: Lint with Pylint
       run: |
-        pylint -d C0301  *.py
+        pylint -d C0301  .src/
